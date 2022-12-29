@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK&family=Outfit:wght@300;400;600&family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/main.css">
+    <title>My Site</title>
+</head>
+<body>
+    <header>    
+        <nav>
+            <ul class="menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li>
+                    <a href="./projects.html">Projects</a>
+                    <ul class="submenu">
+                        <li><a href="./projects/flexbox-site.html">Flexbox-site</a></li>
+                        <li><a href="./projects/batata.html">Batata-web</a></li>
+                        <li><a href="./projects/crypto.html">Cryptomonedas</a></li>
+                        <li><a href="./projects/ecommerce.html">Ecommerce</a></li>
+                    </ul>
+                </li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="mainHero">
+        <section>
+            <img class="hero" src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/hc_1440x810/public/media/image/2022/03/my-hero-academia-izuku-midoriya-deku-2632857.jpg?itok=jdUK28ld" alt="hero">
+        </section>
+        <section class="description">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam nam veritatis, vel repellat optio eaque. Eos nihil adipisci magnam possimus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam nam veritatis, vel repellat optio eaque. Eos nihil adipisci magnam possimus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam nam veritatis, vel repellat optio eaque. Eos nihil adipisci magnam</p>
+        </section>
+    </main>
+
+    <footer class="footerVanilla">
+        <div>
+            <div class="icons">
+                <a href="https://twitter.com"><img class="iconWobble" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAABhElEQVQ4T8WUQU7CQBSG501iu9UTiEuLJngDOIGwEZbcQFjaaoCouARPAMuim3oCuIEkal3iEbpEcBjfa0ptoQMsmjhJk868me/9r++fAktxQIos9n+wyu1bHiuhhwnOnWcrOy42X/dp7jTPvFDZRdstwmKRGVyfdJNKL9+91xhAAw/4h2lIZOA8JxgrETiE0WYA6OCBkW0ahSiQsut72iQKisS/8L1lW9l+CKvcf1RxsRdkpCyPtIHmfnmcD5MUS4DuwDTqFAthquxBKR7upWRrYwFQejINJwbD7E3J+Tl9g6RDyjXOj+yrYyr1T9mmUlQgVO0NrOzBMh7zWbntdkDK2s7KVpoVg1UePjNMyh4++W1AUoVWKtk3p6NEZX7n2u5wJ1iki0oYBQLPXeJrJtEOjI2/57MCuT4aX7ubvkU0vYHqqgqT9qfzWX0VFHaTAJqm5/Hj9xQAujoeJmiprlvMGku5dEe5EDl0/CGtocM9EOJlKn7GSWo2lrmti5viqf7PfgHs9ZAUk2y5CAAAAABJRU5ErkJggg=="/></a>
+
+                <a href="https://www.facebook.com/"><img class="iconWobble" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAA20lEQVQ4T2NkoCJgpKJZDEQbFtF82eE/I6MByHJGRsYPK6q1F6A7hCjDgAY1MDAx1cM0/2dg+LCyWluQZMPC2q4FMP3/vx5ZI9mGhbdcKQB6qx9kGNCbE37++tm4ocHwA7awJujN8LZr/Yz//xeANP9lYDBcXa19AVek0cewiNar94EuUMDmCmCYXQBGgCHREYDPMKAhC4BJI5Fow0BhxfD/vwIwHEBpC+JCRsYD/////wAUP7iyRmcC0YbBFA6+CBh1Gfk5AJzR//4FFz0//v6ZgCtfglMONQtHAH73gRTUlouvAAAAAElFTkSuQmCC"/></a>
+
+                <a href="https://www.instagram.com/"><img class="iconWobble" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAACA0lEQVQ4T61US1LCQBDtSQTdiScwLgWtghMoJxAWCjvlBOJS0CoohS16AnAHuhBPADcAS2FLPAEs+UjG1zGD4acuSFWqMpOe1/36vR5BK3zECrFoIdhxrhUUQhjCsgwhpc+dUArRk5pmSinNp3Sg6f43BRbJNHwbHm8BAWeSqIefvSWVG/a+EPX+cBCtZkJ23BRYLNd6xp5hESVGo6GpghYBxm/eDknTigA0yyl/eAqMqelEDbKscPl6v/5bLwGUkbq+iVbcI74D0J3y5a45qSyeazG1QiUd2FJANm19LUm6foAe9dDDVyTKMBgAtsvpQAJsuiRltnK1dzcBi92+J1HyKcBCDMZA6x5vEZ+HeOtO/zhhU8VwHIrooLoHTrIUzKaiaedQL/GY8ldVAgjUxeEsH+Y9VNZgISop/8UPze/DRyqrIwZhHXX3L5ZvF3AoqJr+L7B4vl3jPs2CgVYRVIOupH9XpmjCJmFlTqePHQhx/ytNFgBSn0OhHUWLKTAlrEvsfKh2hm9zMBqGlQcXCnCSb0cwOkW3NWy12Abf1vChopf++PPObWYbjCiLIkoTAZxR6o6JQrMzt8zAzhTULCGirPjcODEtAEb/AuSJ0YhqaE1TzefcoLNRsRnhatigS6oyEONjf+FN8CjNDbo6aPfPuX54BucALesD1Oqzl8FKL8cvBQ0oI7c9bboAAAAASUVORK5CYII="/></a>
+            </div>
+        </div>
+        <div> 
+            <a class="contact" href="./contact.html">Work whit me</a>
+        </div>
+        <p class="copyright">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, unde. Expedita doloremque tempora aliquam natus blanditiis atque eos totam veniam!</p>
+    </footer>
+</body>
+</html>
+
+
+
+
