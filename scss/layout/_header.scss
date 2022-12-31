@@ -1,0 +1,51 @@
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+        li {
+            &:hover {
+                background-color: rgba(12, 0, 0, 0.5);
+
+                .submenu {
+                    display: block;
+                }
+            }
+
+            a {
+                display: block;
+                padding: 15px 20px;
+                text-decoration: none;
+                color: #5885d5;
+                font-weight: bold;
+            }
+        }
+}
+
+
+.submenu {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+
+        li {
+
+            &:hover {
+                background-color: black;
+            }
+
+            a {
+                display: block;
+                color: #5885d5;
+                font-weight: bold;
+                padding: 15px 15px 15px 20px;
+            }
+        }
+}
+
+/* ---HEADER BOOTSTRAP--- */
+.nav-link {
+    color: #5885d5;
+  }

@@ -1,7 +1,8 @@
-# PreEntrega2-GzzSaenz
+# PreEntrega3-GzzSaenz
 CoderHouse
-1.- Proyecto continuacion de la Pre Entrega # 1, se agregaron los archivos pasados.
-2.- Instalacion de Bootstrap.
-3.- Implementaremos Responsive y Grillas de Bootstrap dentro de las secciones Projects y Contact del proyecto.
-4.- Index y About SIN Bootstrap y con sus respectivas mediaquerys.
-5.- Animaciones en iconos y botones ademas de transiciones en el Nav de index y about.
+1.- Proyecto continuacion de la Pre Entrega # 2, se agregaron los archivos pasados.
+2.- Instalacion de SASS.
+3.- Creamos carpetas y archivos sass para sustituir y organizar de una mejor manera el codigo css anterior
+haciendo uso del pre-procesador css.
+4.-
+

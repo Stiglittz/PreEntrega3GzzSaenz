@@ -1,3 +1,13 @@
-body {
-    background-color: red;
-}
+@import './base/reset';
+@import './base/typo';
+@import './layout/body';
+@import './layout/header';
+@import './views/index';
+@import './utilities/iconGitHub';
+@import './views/contactSlide';
+@import './components/sendButton';
+@import './layout/footer';
+@import './utilities/variables';
+@import './utilities/iconsMedia';
+@import './utilities/wobbleIcon';
+@import './views/mediaQuerys'
