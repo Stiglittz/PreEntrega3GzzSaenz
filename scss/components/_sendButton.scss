@@ -6,7 +6,7 @@
         text-transform: uppercase;
         letter-spacing: 1.3px;
         font-weight: 700;
-        color: #313133;
+        color: $secondary;
         background: #4FD1C5;
         background: linear-gradient(90deg, rgb(129, 173, 230) 0%, rgb(79, 125, 209) 100%);
         border: none;
@@ -34,7 +34,7 @@
         }
 
         &:hover {
-            color: #313133;
+            color: $secondary;
             transform: translateY(-6px);
 
             &::before {
@@ -64,7 +64,7 @@
 button {
 
     &:focus {
-        color: #313133;
+        color: $secondary;
         transform: translateY(-6px);
 
         &::before {

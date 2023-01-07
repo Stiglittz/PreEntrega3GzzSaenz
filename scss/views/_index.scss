@@ -4,8 +4,8 @@ main {
         section {
 
                 p {
-                    font-family: 'Roboto', sans-serif;
-                    font-size: 18px;
+                    @include fontfamily;
+                    font-size:map-get($tFuentes, mediana);
                     font-weight: 700;
                     text-align: center;
                     margin-left: 3%;

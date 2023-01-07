@@ -1,3 +1,17 @@
+.icons {
+
+    section {
+        width: 24px;
+        height: 24px;
+        margin: 0 10px;
+    }
+
+    img {
+        @extend section;
+    }
+
+  }
+
 .iconWobble {
     &:hover {
         animation: myAnim 2s ease 0s 1 normal forwards;

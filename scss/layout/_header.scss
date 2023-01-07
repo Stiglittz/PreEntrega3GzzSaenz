@@ -16,7 +16,7 @@
                 display: block;
                 padding: 15px 20px;
                 text-decoration: none;
-                color: #5885d5;
+                color: $primary;
                 font-weight: bold;
             }
         }
@@ -47,5 +47,5 @@
 
 /* ---HEADER BOOTSTRAP--- */
 .nav-link {
-    color: #5885d5;
+    color: $primary;
   }

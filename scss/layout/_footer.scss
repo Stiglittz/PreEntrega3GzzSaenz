@@ -1,6 +1,6 @@
 .footerVanilla {
     width: 100%;
-    background-color: #313133;
+    background-color: $secondary;
     display: flex;
     justify-content: space-between;
     padding: 30px 10px 10px 15px;
@@ -8,14 +8,14 @@
 }
 
 .contact {
-    font-size: 18px;
+    font-size: map-get($tFuentes, mediana);
     font-weight: bold;
-    color: #5885d5;
+    color: $primary;
 }
 
 .copyright {
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    @include fontfamily;
+    font-size: map-get($tFuentes, pequeña);
     font-weight: 300;
-    color: #5885d5;
+    color: $primary;
 }
